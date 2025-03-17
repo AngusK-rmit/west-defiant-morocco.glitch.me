@@ -57,22 +57,22 @@ function dropdownFunction() {
 //start of haiku function
 //lists of variables: replace all of the 5 and 7 syllable constants in the two arrays below. The more constants you write, the more variety you will have in your poem
 const fiveSyllables = [
-  "jon you are my pet",
-  "garfield was in the oven",
-  "pizza is a dream",
-  "hand over the cheese",
-  "parmesean is life",
-  "i am so hungry",
-  "where did odie go",
-  "get it your damn self",
-  "obey me human",
+  "I don't get poetry",
+  "Garfield was right",
+  "I am so angry",
+  "When was there hope?",
+  "I am very tired",
+  "Rising sea levels",
+  "Right wing facism",
+  "What is the point?",
+  "I don't want to work",
 ];
 const sevenSyllables = [
-  "cheese makes everything better",
-  "the noodles must be wavey",
-  "nothing left to do but sleep",
-  "thinking about lasagne",
-  "yuk, no i don't want salad",
+  "The world is going to crash",
+  "I don't want my rent to rise",
+  "Is life meant to be like this?",
+  "I wonder what to buy next",
+  "Will we be like Ramesses II?",
 ];
 //code for haiku function (do not edit)
 const buttonHaiku = document.getElementById("button-haiku");
@@ -108,6 +108,7 @@ const words = [
   "art of war free download",
   "ask izzy",
   "australian family law issues in the news",
+  "aus grand prix days",
 
   "barrister vs lawyer australia",
   "barrister vs solicitor",
@@ -116,15 +117,32 @@ const words = [
   "can i seek to vary my family court order",
   "ccs has no cctv",
   "childcare how expensive",
+  "carpel tunnel syndrome",
 
   "delete search history",
   "delusional jealousy",
   "dv stats australia",
+  "de koning to sydney swans",
 
   "earliest memories as a child",
   "emotional manipulation signs",
 
   "fridge magnets",
+  "formal version of sporadic",
+  
+  "gumbo",
+  
+  "how much do contacts cost specsavers",
+  
+  "jason dunstall",
+  
+  "kieren briggs",
+  
+  "max king",
+  "miles teller",
+  
+  
+  
 ];
 //search function (do not edit)
 function changeText(e) {
@@ -156,15 +174,15 @@ textInput.addEventListener("input", changeText);
 //start of code for poem
 
 const subjects =
-    "robots, pilgrims, broken families, displaced animals, right-wing militants, cyborgs".split(
+    "police, dream-rotted savants, broken minds, facists, propogandists, children".split(
       ","
     ),
   verbs =
-    "wander,search, cross, kneel to pray in, avoid, survey, sneak across, hide in".split(
+    "wade through, plead with, interrogate, prey on, avoid, seek, blend in, pray with, dominate".split(
       ","
     ),
   objects =
-    "the barren plains,the wilted grasslands, vast wastelands,wildernesses unknown,languishing caravan parks, arid deserts, military bunkers, valleys of ash and bone".split(
+    "the charred forest,the urban centre, dreams, campuses, social media, warzones, business lunches, the border".split(
       ","
     );
 // set up the counter
@@ -220,4 +238,4 @@ function processPoem() {
     removeFirstLine();
   }
 }
-window.setInterval(processPoem, 1000);
+window.setInterval(processPoem, 2000);
