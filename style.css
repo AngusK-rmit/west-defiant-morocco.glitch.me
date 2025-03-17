@@ -127,8 +127,8 @@ h5 {
   min-height: 375px;
   border-radius: 10px 10px 10px 10px;
   text-align: center;
-  background-color: green;
-  color: white;
+  background-color: white;
+  color: black;
   font-family: "PT Serif", serif; /* font for <p> text */
   font-size: 14px;
   text-align: center;
@@ -142,7 +142,8 @@ h5 {
   min-height: 375px;
   border-radius: 10px 10px 10px 10px;
   text-align: left;
-  background-color: white;
+  background-color: pink;
+  color: black;
 }
 
 /* Style the card for the poem function */
@@ -154,7 +155,7 @@ h5 {
   text-align: left;
   background-color: #000000;
   background-image: url("https://cdn.glitch.com/02600171-b43e-46dd-a21e-bfc0b9a82267%2FcatBG.gif?v=1620459338357"); /* replace this gif background with an image of your choosing or create your own gif at giphy.com using a plain background and adding effects or just delete the background-image property and you can set the background-color to what you want (it's currently black)*/
-  color: #68d911;
+  color: red;
   font-family: "Source Code Pro", monospace;
   font-size: 14px; 
 }
